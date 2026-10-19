@@ -1,0 +1,242 @@
+[
+  {
+    "category": "Payments",
+    "question": "Why did my UPI payment fail?",
+    "answer": "UPI payments usually fail due to poor internet connection, incorrect UPI PIN, bank server downtime, or insufficient balance. Check your balance and try again after a few minutes.",
+    "variations": ["payment failed", "UPI transaction failed", "why is my payment not going through"]
+  },
+  {
+    "category": "Payments",
+    "question": "Money deducted but payment failed, what should I do?",
+    "answer": "Failed UPI transactions with a deducted amount are usually auto-reversed within 3-5 working days. If not credited by then, contact your bank with the transaction reference ID.",
+    "variations": ["amount debited but not received", "payment stuck", "money cut but transaction failed", "money deducted but not received"]
+  },
+  {
+    "category": "Payments",
+    "question": "What is the maximum limit for a UPI transaction?",
+    "answer": "Most banks allow a maximum of ₹1,00,000 per transaction and up to ₹1,00,000-2,00,000 per day, though limits vary by bank and app. Check your bank's UPI limit in the app settings.",
+    "variations": ["UPI transaction limit", "how much money can I send via UPI", "daily UPI limit"]
+  },
+  {
+    "category": "Payments",
+    "question": "I sent money to the wrong UPI ID, how do I get it back?",
+    "answer": "Contact your bank's customer care immediately with the transaction ID and explain the error. You can also file a complaint on the NPCI dispute portal. Recovery isn't guaranteed if the recipient doesn't cooperate, so act fast.",
+    "variations": ["sent money to wrong account", "wrong UPI ID transfer", "transferred to incorrect person"]
+  },
+  {
+    "category": "Payments",
+    "question": "Why does my UPI app show 'transaction pending'?",
+    "answer": "This usually means your bank server hasn't confirmed the transaction yet. Wait 15-30 minutes and check your bank statement. Avoid retrying immediately, as it may cause a double debit.",
+    "variations": ["transaction pending status", "payment stuck in pending", "UPI showing pending"]
+  },
+  {
+    "category": "Payments",
+    "question": "Can I send money using just a mobile number?",
+    "answer": "Yes, if the recipient's mobile number is linked to a UPI ID, you can send money directly using their number in most UPI apps.",
+    "variations": ["send money using phone number", "pay using mobile number"]
+  },
+  {
+    "category": "Payments",
+    "question": "Why is my UPI transaction declined at the bank end?",
+    "answer": "This can happen due to incorrect UPI PIN entries, an inactive UPI registration, bank server maintenance, or exceeding your daily limit. Try again later or contact your bank.",
+    "variations": ["transaction declined by bank", "bank declined my payment"]
+  },
+  {
+    "category": "Payments",
+    "question": "Can I schedule a UPI payment for later?",
+    "answer": "Some UPI apps support scheduled or recurring payments (UPI AutoPay) for bills and subscriptions. Check your app's 'Autopay' or 'Mandates' section to set this up.",
+    "variations": ["schedule UPI payment", "recurring UPI payment", "UPI autopay"]
+  },
+  {
+    "category": "Refunds",
+    "question": "How long does a UPI refund take?",
+    "answer": "Refunds for failed or reversed UPI transactions typically take 3-5 working days, though it can take up to 7 days in some cases depending on your bank.",
+    "variations": ["refund time for UPI", "how many days for refund", "refund duration"]
+  },
+  {
+    "category": "Refunds",
+    "question": "My refund is not credited even after 5 days, what now?",
+    "answer": "Contact your bank's customer support with the transaction ID and date. If unresolved after 7 working days, you can raise a complaint through the NPCI UPI complaint portal or your bank's grievance cell.",
+    "variations": ["refund not received", "refund delayed", "refund still pending"]
+  },
+  {
+    "category": "Refunds",
+    "question": "How do I check my refund status?",
+    "answer": "Open your UPI app, go to transaction history, find the original payment, and check its status. It will show as 'Refunded' or 'Reversed' if processed. You can also check your bank statement.",
+    "variations": ["check refund status", "track my refund", "where is my refund"]
+  },
+  {
+    "category": "Refunds",
+    "question": "Will I get a refund if I cancel an order paid via UPI?",
+    "answer": "Yes, refunds for cancelled orders are processed to the original payment method. The amount is credited back to your bank account within the merchant's stated refund timeline, usually 5-7 working days.",
+    "variations": ["refund for cancelled order", "order cancelled will I get money back"]
+  },
+  {
+    "category": "Refunds",
+    "question": "Do I need to file a complaint for every failed transaction refund?",
+    "answer": "No, most failed transactions are auto-reversed automatically. File a complaint only if the refund doesn't appear within 5-7 working days.",
+    "variations": ["do I need to complain for refund", "is refund automatic"]
+  },
+  {
+    "category": "Security",
+    "question": "What should I do if I suspect UPI fraud?",
+    "answer": "Immediately block your UPI ID through your bank's app or customer care, change your UPI PIN, and report the fraud on the National Cybercrime Helpline (1930) or cybercrime.gov.in.",
+    "variations": ["UPI fraud happened", "I got scammed on UPI", "fraudulent transaction on my account"]
+  },
+  {
+    "category": "Security",
+    "question": "How do I block my UPI ID?",
+    "answer": "Go to your UPI app's settings, find 'Manage UPI ID/Bank Account', and select 'Deactivate' or 'Block'. Alternatively, call your bank's customer care to block it immediately.",
+    "variations": ["block UPI account", "deactivate UPI ID", "disable UPI"]
+  },
+  {
+    "category": "Security",
+    "question": "I forgot my UPI PIN, how do I reset it?",
+    "answer": "Open your UPI app, select your bank account, choose 'Forgot UPI PIN', and verify using your debit card details and OTP to set a new PIN.",
+    "variations": ["forgot UPI PIN", "reset UPI PIN", "can't remember UPI PIN"]
+  },
+  {
+    "category": "Security",
+    "question": "Is it safe to share my UPI ID with others?",
+    "answer": "Yes, sharing your UPI ID is safe since it's used only for receiving money. Never share your UPI PIN, OTP, or scan unknown QR codes to send money, as that can lead to unauthorized debits.",
+    "variations": ["is UPI ID safe to share", "can I share my UPI ID"]
+  },
+  {
+    "category": "Security",
+    "question": "Someone sent me a QR code to receive money, is that legitimate?",
+    "answer": "No, scanning a QR code and entering your UPI PIN always results in sending money, never receiving it. This is a common scam. Never scan a QR code or enter your PIN to 'receive' payment.",
+    "variations": ["QR code scam", "asked to scan QR to receive money", "is scanning QR to get money real"]
+  },
+  {
+    "category": "Security",
+    "question": "What is a UPI PIN and why do I need it?",
+    "answer": "A UPI PIN is a 4-6 digit secret code used to authorize transactions. It confirms the payment is genuinely initiated by you and should never be shared with anyone.",
+    "variations": ["what is UPI PIN", "why do I need UPI PIN"]
+  },
+  {
+    "category": "Security",
+    "question": "I received a suspicious payment request, should I approve it?",
+    "answer": "No, never approve unknown payment collect requests. Approving a 'collect request' authorizes money to be debited from your account, not credited. Decline it and report the number if it seems fraudulent.",
+    "variations": ["suspicious collect request", "unknown payment request", "should I accept unknown request"]
+  },
+  {
+    "category": "Security",
+    "question": "How can I enable extra security for UPI transactions?",
+    "answer": "Enable app lock or biometric authentication in your UPI app settings, set transaction alerts via SMS/email, and avoid using UPI on public or shared Wi-Fi networks.",
+    "variations": ["extra UPI security", "secure my UPI app", "protect UPI account"]
+  },
+  {
+    "category": "Account", 
+    "question": "How do I link my bank account to a UPI app?",
+    "answer": "Open the UPI app, select 'Add Bank Account', choose your bank from the list, and verify using an OTP sent to your registered mobile number linked to that bank account.",
+    "variations": ["link bank account to UPI", "add bank account to UPI app", "connect bank to UPI"]
+  },
+  {
+    "category": "Account",
+    "question": "Can I use UPI without a debit card?",
+    "answer": "You need a debit card only once, to set your UPI PIN during initial setup. After that, you can make transactions using just your UPI PIN, no card required.",
+    "variations": ["UPI without debit card", "can I use UPI without ATM card"]
+  },
+  {
+    "category": "Account",
+    "question": "How do I change my mobile number linked to UPI?",
+    "answer": "First update your mobile number with your bank (visit a branch or use net banking), then re-register your UPI app using the new number to relink your account.",
+    "variations": ["change mobile number for UPI", "update registered mobile number"]
+  },
+  {
+    "category": "Account",
+    "question": "Can I have multiple UPI IDs for the same bank account?",
+    "answer": "Yes, you can create multiple UPI IDs (VPAs) linked to the same bank account, for example, across different apps like Google Pay, PhonePe, or Paytm.",
+    "variations": ["multiple UPI IDs same account", "can I have more than one UPI ID"]
+  },
+  {
+    "category": "Account",
+    "question": "How do I delink my bank account from a UPI app?",
+    "answer": "Go to the app's settings, select 'Manage Bank Accounts', choose the account, and tap 'Remove' or 'Delink'. This doesn't close your bank account, only removes it from that app.",
+    "variations": ["remove bank account from UPI app", "delink bank from UPI", "unlink bank account"]
+  },
+  {
+    "category": "Account",
+    "question": "What is KYC and why is it needed for UPI?",
+    "answer": "KYC (Know Your Customer) verifies your identity using documents like Aadhaar or PAN. Banks require it to comply with RBI regulations and prevent fraud before allowing UPI transactions.",
+    "variations": ["what is KYC", "why is KYC required for UPI"]
+  },
+  {
+    "category": "Account",
+    "question": "My KYC is not updated, can I still use UPI?",
+    "answer": "You may face transaction limits or be unable to make certain payments if your KYC isn't updated. Visit your bank branch or update it through net banking or the bank's app.",
+    "variations": ["KYC pending UPI issue", "KYC not updated"]
+  },
+  {
+    "category": "Account",
+    "question": "Can I use UPI with more than one bank account?",
+    "answer": "Yes, you can link multiple bank accounts to the same UPI app and choose which account to pay from during each transaction.",
+    "variations": ["multiple bank accounts UPI", "link two bank accounts to UPI"]
+  },
+  {
+    "category": "General",
+    "question": "What is UPI?",
+    "answer": "UPI (Unified Payments Interface) is a real-time payment system developed by NPCI that lets you instantly transfer money between bank accounts using a mobile app, without needing account details.",
+    "variations": ["what does UPI mean", "explain UPI", "UPI full form"]
+  },
+  {
+    "category": "General",
+    "question": "Is UPI available 24/7?",
+    "answer": "Yes, UPI transactions can be made 24 hours a day, 7 days a week, including holidays, since it operates independently of traditional banking hours.",
+    "variations": ["is UPI available on holidays", "can I use UPI at night", "UPI working hours"]
+  },
+  {
+    "category": "General",
+    "question": "Does UPI charge any transaction fee?",
+    "answer": "Most peer-to-peer UPI transactions are free for users. Some merchant transactions above a certain limit may attract a small fee, depending on your bank and the payment app's policy.",
+    "variations": ["UPI transaction charges", "does UPI cost money", "UPI fees"]
+  },
+  {
+    "category": "General",
+    "question": "What is the difference between UPI ID and UPI PIN?",
+    "answer": "A UPI ID (like name@bank) identifies your account for receiving money, similar to an email address. A UPI PIN is a secret code used to authorize and approve outgoing payments.",
+    "variations": ["UPI ID vs UPI PIN", "difference between UPI ID and PIN"]
+  },
+  {
+    "category": "General",
+    "question": "Can I use UPI for international payments?",
+    "answer": "UPI is primarily for domestic transactions within India. However, NPCI has started limited international UPI acceptance in select countries like Singapore, UAE, and France through partnerships.",
+    "variations": ["UPI international payment", "can I use UPI abroad"]
+  },
+  {
+    "category": "General",
+    "question": "What happens if my phone is lost, is my UPI safe?",
+    "answer": "Immediately call your bank to block your UPI ID and SIM card. Since UPI PIN and app lock protect transactions, a lost phone alone usually can't be misused, but blocking quickly is safest.",
+    "variations": ["lost phone UPI safety", "phone stolen what about UPI"]
+  },
+  {
+    "category": "General",
+    "question": "Can I use UPI without an internet connection?",
+    "answer": "Yes, you can use *99# USSD service to make basic UPI transactions from any mobile phone without internet, though functionality is limited compared to app-based UPI.",
+    "variations": ["UPI without internet", "USSD UPI", "*99# UPI"]
+  },
+  {
+    "category": "General",
+    "question": "How do I check my UPI transaction history?",
+    "answer": "Open your UPI app and go to the 'History' or 'Transactions' tab, where all past payments, requests, and their statuses are listed chronologically.",
+    "variations": ["check UPI history", "view past UPI transactions", "transaction history"]
+  },
+  {
+    "category": "General",
+    "question": "Why do some merchants have a UPI transaction limit lower than banks?",
+    "answer": "Merchants may set their own lower limits per transaction for risk management, even though your bank's UPI limit might be higher. Check the merchant app's payment policy for details.",
+    "variations": ["merchant UPI limit lower", "why merchant limit different"]
+  },
+  {
+    "category": "General",
+    "question": "Can I cancel a UPI payment after sending it?",
+    "answer": "No, UPI payments are processed instantly and cannot be cancelled or recalled once completed. If sent by mistake, you must contact the recipient or your bank to request a return.",
+    "variations": ["cancel UPI payment", "can I reverse a UPI transaction myself", "stop UPI payment"]
+  },
+  {
+    "category": "General",
+    "question": "What is a Virtual Payment Address (VPA)?",
+    "answer": "A VPA, commonly called a UPI ID, is a unique identifier like yourname@bankname that lets you send and receive money without sharing your actual bank account number or IFSC code.",
+    "variations": ["what is VPA", "virtual payment address meaning"]
+  }
+]
